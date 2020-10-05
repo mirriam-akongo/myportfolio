@@ -15,28 +15,28 @@ class Contact extends Component {
               creation, front-end/back-end web
             </p>
           </Cell>
-          <Cell col={6}>
+          <Cell col={6} style={{ textAlign: "left" }}>
             <h2>Contact me</h2>
             <hr />
             <div class="contact-list">
               <h3>I'm available for hire </h3>
               <List>
                 <ListItem>
-                  <ListItemContent style={{ fontSize: "35px" }}>
+                  <ListItemContent style={{ fontSize: "30px" }}>
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     (+256) 7582 92029
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{ fontSize: "35px" }}>
+                  <ListItemContent style={{ fontSize: "30px" }}>
                     <i className="fa fa-envelope-square" aria-hidden="true" />
                     jemmirriako@gmail.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{ fontSize: "35px" }}>
+                  <ListItemContent style={{ fontSize: "30px" }}>
                     <i className="fa fa-facebook-square" aria-hidden="true" />
                     <a
                       href="https://www.facebook.com/profile.php?id=100013782000870"

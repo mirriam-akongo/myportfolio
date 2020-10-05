@@ -126,18 +126,18 @@
 
 .contact-grid hr {
   border-top: 5px dotted black;
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
 .contact-list i {
-  font-size: 70px;
-  padding-right: 4rem;
+  font-size: 45px;
+  padding-right: 0.5rem;
 }
 
 .projects-grid {
   display: flex;
-  margin-top: 10px;
+  margin: 20px auto;
 }
 
 /* Resume Page*/

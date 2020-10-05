@@ -24,7 +24,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/**Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450px", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",

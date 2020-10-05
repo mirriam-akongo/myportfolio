@@ -1,5 +1,13 @@
 import React, { Component } from "react";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import {
+  Layout,
+  Header,
+  Navigation,
+  Drawer,
+  Content,
+  Footer,
+  FooterSection,
+} from "react-mdl";
 import Main from "./Main";
 import { Link } from "react-router-dom";
 
@@ -41,10 +49,31 @@ class Navb extends Component {
           <Content>
             <div className="page-content" />
             <Main />
-            <div>
-              <footer>&copy; Mirriam 2020</footer>
-            </div>
           </Content>
+          <Footer className="header-color">
+            <FooterSection
+              type="middle"
+              style={{
+                color: "white",
+                fontSize: "20px",
+                textAlign: "center",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+            >
+              <footer>&copy; Mirriam 2020</footer>
+
+              {/* <FooterLinkList>
+                <div>
+                  <footer>&copy; Mirriam 2020</footer>
+                </div>
+                {/* <a href="#">Help</a>
+                <a href="#">Privacy & Terms</a> 
+              </FooterLinkList> */}
+            </FooterSection>
+          </Footer>
         </Layout>
       </div>
     );
