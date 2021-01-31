@@ -1,35 +1,16 @@
-.header-color {
-  background: #833ab4; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: floralwhite;
 }
 
 /*Home page*/
 .landing-grid {
-  background: #833ab4; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: floralwhite;
   text-align: center;
   position: scroll;
   top: 0;
@@ -43,7 +24,7 @@
   border: 3px solid white;
   float: center;
   height: 300px;
-  margin-top: 70px;
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 
@@ -58,17 +39,17 @@
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: white;
+  color: #fbcd92;
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 5px dotted #fbcd92;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: white;
+  color: #fbcd92;
   font-size: 20px;
   padding: 1em;
 }
@@ -80,30 +61,37 @@
   margin: auto;
 }
 .social-links i {
-  color: white;
+  color: #fbcd92;
   font-size: 5em;
   padding: 8px;
 }
 
 /*Contact page*/
 .contact-body {
-  margin: auto;
+  /* margin: -10px auto 0 auto; */
   position: scroll;
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding-top: 2em;
+  padding: 2em;
+  /* background: black; */
 }
 
 .contact-grid {
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 580px;
+  height: 100%;
   background: white;
-  color: black;
-  margin-bottom: 20px;
+  color: #fbcd92;
+  /* margin-bottom: 10px; */
+  border-radius: 10px;
 }
+
+/* .contact-grid {
+  text-align: center;
+  color: #10292e;
+} */
 
 .my-img2 {
   height: 250px;
@@ -115,17 +103,17 @@
 }
 
 .contact-grid h2 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fbcd92;
 }
 
 .contact-grid p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* font-weight: bold; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 30px;
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
+  border-top: 5px dotted cornsilk;
   width: 100%;
   margin: auto;
 }
@@ -142,9 +130,10 @@
 
 /* Resume Page*/
 .resume-right-col {
-  background: #2a2d3e;
-  color: white;
+  background: #10292e;
+  color: #fbcd92;
   padding: 2em;
+  border-radius: 10px;
 }
 
 .my-img3 {
@@ -155,3 +144,37 @@
   margin-top: 5px;
   margin-bottom: 0px;
 }
+
+/* Resume Page*/
+.resume-left-col {
+  background: #7c6e6e;
+  color: #10292e;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+/* About Page*/
+.about-body {
+  background: #162020;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 2em;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  height: 700px;
+  color: #80a5a5;
+}
+
+.about-body p {
+  font-size: 25px;
+  color: #dec394;
+}
+
+.about-body a {
+  font-size: 25px;
+  color: #dec394;
+}
+
+/* @media (max-width: 350px) {
+} */
