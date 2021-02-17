@@ -18,8 +18,8 @@ class Contact extends Component {
             <h2>MIRRIAM AKONGO</h2>
             <img src={me} alt='mirriam' className='my-img2' />
             <p style={{ width: '75%', margin: 'auto', padding: '1em' }}>
-              You can reach out to me concerning software web applications that
-              are either front-end or back-end based or for both.
+              You can reach out to me concerning web applications that are
+              either front-end or back-end based or for both.
             </p>
           </Cell>
           <Cell
@@ -38,7 +38,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent
                     style={{
-                      fontSize: '30px',
+                      fontSize: '25px',
                       color: 'cornsilk',
                     }}
                   >
@@ -49,7 +49,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: '30px', color: 'cornsilk' }}
+                    style={{ fontSize: '25px', color: 'cornsilk' }}
                   >
                     <i className='fa fa-envelope-square' aria-hidden='true' />
                     jemmirriako@gmail.com
@@ -58,7 +58,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: '30px', color: 'cornsilk' }}
+                    style={{ fontSize: '25px', color: 'cornsilk' }}
                   >
                     <i className='fa fa-linkedin-square' aria-hidden='true' />
                     <a
@@ -74,7 +74,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: '30px', color: 'cornsilk' }}
+                    style={{ fontSize: '25px', color: 'cornsilk' }}
                   >
                     <i className='fa fa-facebook-square' aria-hidden='true' />
                     <a

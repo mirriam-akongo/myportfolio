@@ -14,11 +14,17 @@ class About extends Component {
             encouraging fellow youth because it'sCurrently
           </p>
           <p>
-            I like participating in coding bootcamps and here I actually got to
-            learn alot more
+            Well, once I chose the path to join tech space to be specific
+            software development path, I new that I had to be prepared for a
+            life long learning journey knowing that Learning never stops.
           </p>
           <p>
-            From the Outbox EDU bootcamp I got to have a chance to learn blogs
+            For this reason, I started participating in coding bootcamps and I
+            acquired more technical skills and soft skills.
+          </p>
+          <p>
+            From the Outbox EDU bootcamp, I got to have a chance to learn and
+            write a few blogs
           </p>
           <h3>Here are a few Medium blogs I Wrote</h3>
 
