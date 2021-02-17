@@ -18,11 +18,11 @@ class Resume extends Component {
                 style={{ borderTop: '3px solid cornsilk', width: '100%' }}
               ></hr>
               <p style={{ fontSize: '20px' }}>
-                Do a breif introduction on yourself <br></br>I am a software
-                developer who is very open to learning, exploring, and I love
-                staying within the developer learning community; remember that
-                learning never stops. Well I love giving back to the community
-                because where I am now, is all thanks to the dev community
+                I am a software developer who is very open to learning,
+                exploring, and I love staying within the developer learning
+                community; remember that learning never stops. Well I love
+                giving back to the community because where I am now, is all
+                thanks to the dev community
               </p>
               <h3 style={{ color: 'cornsilk' }}>EXPERIENCE</h3>
               <h4>
@@ -37,13 +37,7 @@ class Resume extends Component {
                 <br />I have been able to understand the user requirements.
                 <br />I have also learnt to adher to industry best practices
               </p>
-              <h4>Company, Location — Job Title MONTH 20XX - MONTH 20XX</h4>
-              <p style={{ fontSize: '20px' }}>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh. Company, Location — Job Title MONTH 20XX -
-                MONTH 20XX Lorem ipsum dolor sit amet, consectetuer adipiscing
-                elit, sed diam nonummy nibh.
-              </p>
+
               <hr
                 style={{ borderTop: '3px solid cornsilk', width: '100%' }}
               ></hr>

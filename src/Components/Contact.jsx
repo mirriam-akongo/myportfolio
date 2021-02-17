@@ -33,12 +33,12 @@ class Contact extends Component {
             <h2>Contact me</h2>
             <hr />
             <div class='contact-list'>
-              <h3>I'm available for hire </h3>
+              <h3 style={{ fontSize: '25px' }}>I'm available for hire </h3>
               <List style={{ justifyContent: 'center' }}>
                 <ListItem>
                   <ListItemContent
                     style={{
-                      fontSize: '25px',
+                      fontSize: '20px',
                       color: 'cornsilk',
                     }}
                   >
@@ -49,7 +49,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: '25px', color: 'cornsilk' }}
+                    style={{ fontSize: '20px', color: 'cornsilk' }}
                   >
                     <i className='fa fa-envelope-square' aria-hidden='true' />
                     jemmirriako@gmail.com
@@ -58,7 +58,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: '25px', color: 'cornsilk' }}
+                    style={{ fontSize: '20px', color: 'cornsilk' }}
                   >
                     <i className='fa fa-linkedin-square' aria-hidden='true' />
                     <a
@@ -74,7 +74,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: '25px', color: 'cornsilk' }}
+                    style={{ fontSize: '20px', color: 'cornsilk' }}
                   >
                     <i className='fa fa-facebook-square' aria-hidden='true' />
                     <a
