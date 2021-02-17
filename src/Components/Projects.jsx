@@ -97,8 +97,14 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>
-                <a href='https://github.com/mirriam-akongo/shop-for-men'></a>
-                Github
+                <a
+                  href='https://github.com/mirriam-akongo/shop-for-men'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  style={{ color: '#10292e' }}
+                >
+                  Github
+                </a>
               </Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
