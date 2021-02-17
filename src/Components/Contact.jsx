@@ -38,7 +38,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent
                     style={{
-                      fontSize: '20px',
+                      fontSize: '25px',
                       color: 'cornsilk',
                     }}
                   >
@@ -49,7 +49,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: '20px', color: 'cornsilk' }}
+                    style={{ fontSize: '25px', color: 'cornsilk' }}
                   >
                     <i className='fa fa-envelope-square' aria-hidden='true' />
                     jemmirriako@gmail.com
@@ -58,7 +58,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: '20px', color: 'cornsilk' }}
+                    style={{ fontSize: '25px', color: 'cornsilk' }}
                   >
                     <i className='fa fa-linkedin-square' aria-hidden='true' />
                     <a
@@ -74,7 +74,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: '20px', color: 'cornsilk' }}
+                    style={{ fontSize: '25px', color: 'cornsilk' }}
                   >
                     <i className='fa fa-facebook-square' aria-hidden='true' />
                     <a
